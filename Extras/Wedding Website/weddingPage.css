@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'cherolinaregular';
+    src: url(css/webfontkit-20200912-144910/cherolina-webfont.woff2) format('woff2'),
+         url(css/webfontkit-20200912-144910/cherolina-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    
+    background: #FFF;
+    text-align: center;
+    padding-top: 15px; 
+    display: block;
+    width: 100%;
+    top:0;
+    height: 90px;
+    z-index: 100;
+    position: fixed;
+}
+
+.names {
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    letter-spacing: 4.2px;
+    color: #766032;
+    font-family: 'cherolinaregular';
+    font-size: 395%;
+    font-weight: 599;
+    z-index: 100;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: #FFF;
+    position: fixed;
+    margin-top: 85px;
+    z-index: 100;
+}
+
+.menu-area li {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: lowercase;    
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/* Navigation Styles */
+.menu-area li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+}
+
+.menu-area li a,
+.menu-area li a:after,
+.menu-area li a:before {
+    transition: all .7s;
+}
+
+.menu-area li a:hover {
+    color: #766032; 
+}
+
+.menu-area li a {
+    position: relative;  
+}
+
+.menu-area li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #766032;
+    height: 5px;
+}
+
+.menu-area li a:hover:after {
+  width: 100%;
+}
+
+/*End Navigation List styles*/
+
+/*Body */
+
+.image1 {
+    background-image: url(a+m_grass.jpg);
+    height: 100%; 
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*
+    background-image: url(a+m_grass.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: 0;
+*/
+}
+
+.image3 {
+    
+    background-image: url(running.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+
+/*
+    
+    background-image: url(running.jpg);
+    height: 100%; 
+*/
+  /* Create the parallax scrolling effect */
+/*
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+.grid {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: 400px;
+
+}
+
+.ourWedding {
+    
+    background-image: url(logo_img.png);
+    text-align: center;
+    vertical-align:middle;
+}
+
+.schedule {
+
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'cherolinaregular';
+    font-size: 395%;
+    font-weight: 599;
+    color: #766032;
+    vertical-align: middle;
+}
+
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

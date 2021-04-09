@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'cherolinaregular';
+    src: url(css/cherolina-webfont.woff2) format('woff2'),
+         url(css/cherolina-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+/*
+    background-image: url(a+m_grass.jpg);
+    -webkit-background-soz: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+*/
+}
+
+.header {
+    background: #FFF;
+    text-align: center;
+    height: 10%;
+    opacity: .;
+    display: block;
+    position: relative;
+    overflow: auto;
+
+
+}
+
+.names {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3.3;
+    font-style: normal;
+    letter-spacing: 5.7px;
+    color: #766032;
+    font-family: 'cherolinaregular';
+ 
+}
+
+.date {
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: #FFF;
+}
+
+.menu-area {
+    z-index: 100;  
+}
+
+.menu-area li {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style: normal;
+    text-transform: lowercase;    
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: normal;
+ 
+}
+
+.menu-area li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+
+.menu-area li a,
+.menu-area li a:after,
+.menu-area li a:before {
+    transition: all .5s;
+}
+
+.menu-area li a:hover {
+    color: #766032; 
+}
+
+.menu-area li a {
+    position: relative;  
+}
+
+.menu-area li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #766032;
+    height: 3.5px;
+}
+
+.menu-area li a:hover:after {
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.image1 {
+    background-image: url(a+m_grass.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.image2 {
+    
+
+
+
+}
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

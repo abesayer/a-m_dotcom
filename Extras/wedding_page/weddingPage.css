@@ -1,0 +1,19 @@
+
+
+body {
+    height: 100%;
+    overflow-wrap: break-word;
+    min-height: 100vh;
+    display: block;
+    background: #c2c2c2;
+    overflow-x: hidden;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px
+
+}
+
